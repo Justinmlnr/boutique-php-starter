@@ -6,49 +6,49 @@ $products = [
         "name" => "Jeans",
         "price" => 34.99,
         "stock" => 0,
-        "image" => 
+        "image" => 0 
     ],
     [
         "name" => "Pull",
         "price" => 129,
         "stock" => 5,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Sweat",
         "price" => 19.9,
         "stock" => 12,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Ceinture",
         "price" => 59.5,
         "stock" => 2,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Chausette",
         "price" => 44.5,
         "stock" => 0,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Veste",
         "price" => 79,
         "stock" => 8,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Casquette",
         "price" => 24.9,
         "stock" => 3,
-        "image" => 
+        "image" => 0
     ],
     [
         "name" => "Écharpe",
         "price" => 39.99,
         "stock" => 0,
-        "image" => 
+        "image" => 0
     ]
 ];
 ?>
