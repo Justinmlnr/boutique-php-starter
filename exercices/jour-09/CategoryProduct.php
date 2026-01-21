@@ -49,7 +49,7 @@ class Product
         $this->name = $name;
         $this->price = $price;
         $this->description = $description;
-        $this->category = $category;
+        $this->Category = $category;
     }
 
     public function getId(): int

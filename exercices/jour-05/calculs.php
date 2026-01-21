@@ -1,8 +1,9 @@
 <?php
 
+//Déclaration de la fonction avec deux paramètres.
 function calculateVAT($priceExcludingTax, $rate)
 {
-    return $priceExcludingTax * ($rate / 100);
+    return $priceExcludingTax * ($rate / 100); // renvoie la valeur calculée.
 }
 function calculateIncludingTax($priceExcludingTax, $rate)
 {
@@ -18,6 +19,7 @@ $priceHT =  100;
 $tvaRate = 20;
 $discountRate = 10;
 
+// Appel des fonction et récupération du résultat.
 $vat = calculateVAT($priceHT, $tvaRate);
 $priceTTC = calculateIncludingTax($priceHT, $tvaRate);
 $priceAfterDiscount = calculateDiscount($priceTTC, $vat);

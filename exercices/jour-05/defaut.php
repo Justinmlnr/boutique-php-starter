@@ -1,6 +1,6 @@
 <?php
 
-function formatPrice($amount, $currency = "€", $decimals = 2) {
+function formatPrice($amount = 20, $currency = "€", $decimals = 2) {
     $formatted = number_format($amount, $decimals, '.', '');
     return $formatted . " " . $currency;
 
@@ -9,7 +9,8 @@ function formatPrice($amount, $currency = "€", $decimals = 2) {
 echo formatPrice(99.999) . "<br>";
 echo formatPrice(99.999, "$") ."<br>";
 echo formatPrice(99.999,"€", 0) ."<br>";
+echo formatPrice() . "<br>";
 ?>
 
 
-echo number_format($amount, $decimals, '.', '') . " " . $currency;
+<!-- echo number_format($amount, $decimals, '.', '') . " " . $currency; -->
